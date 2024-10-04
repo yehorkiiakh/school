@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,700;1,700&display=swap");
+body, html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #8FBC8F;
+}
+
+.wrapper {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+.wrapper .currency {
+  width: 300px;
+  height: 100%;
+  background-color: #fff;
+}
+
+.__container {
+  width: 100%;
+  text-align: center;
+  background-image: url("https://static.vecteezy.com/ti/gratis-vektor/p1/17023144-gruner-abstrakter-hintergrund-grunes-hintergrunddesign-abstrakter-futuristischer-hintergrund-gruner-moderner-hintergrund-gruner-abstrakter-hintergrund-fur-vorlagen-karten-und-websites-kostenlos-vektor.jpg");
+}
+.__container .asd {
+  font-size: 30px;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.__container .header {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid 1px #000;
+}
+.__container .header .input {
+  margin-right: 10px;
+}
+.__container .header h1 {
+  margin-right: 100px;
+}
+.__container .result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.__container .result .input_currency {
+  width: 150px;
+  height: 30px;
+  border-radius: 8px;
+}/*# sourceMappingURL=style.css.map */
