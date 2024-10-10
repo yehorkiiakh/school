@@ -20,13 +20,13 @@ async function getCurrency() {
         
         const input = document.querySelector("#input");
         const inputValue = input.value;
-        const firstCurrency = select1.value; // выбранная первая валюта
+        const firstCurrency = select1.value;
         console.log(firstCurrency);
-        const firstValue = data.rates[firstCurrency]; // курс первой валюты
+        const firstValue = data.rates[firstCurrency];
         console.log(firstValue);
             
-        const secondCurrency = select2.value; // выбранная вторая валюта
-        const secondValue = data.rates[secondCurrency]; // курс второй валюты
+        const secondCurrency = select2.value;
+        const secondValue = data.rates[secondCurrency];
         console.log(secondValue);
         console.log(secondCurrency);
 
